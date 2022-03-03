@@ -13,4 +13,8 @@ class PaymentDashboard < Administrate::BaseDashboard
   ]
 
   SHOW_PAGE_ATTRIBUTES = ATTRIBUTE_TYPES.keys
+
+  FORM_ATTRIBUTES = [:id, :order]
+
+  FORM_ATTRIBUTES_EDIT = [:order]
 end
